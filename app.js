@@ -81,7 +81,7 @@ const youLost=()=>{
 const youWin=()=>{
     modal.classList.add("d-block")
     modalTitle.textContent="Congratulations! "
-    modalContent.textContent=`How can do it? You find in ${count} attempts`
+    modalContent.textContent=`How can do it? You find in ${8-count} attempts`
     
 }
 
