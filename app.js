@@ -26,7 +26,7 @@ checkBtn.addEventListener("click", () => {
             comment.textContent = `Please enter a number!`;
             alert(`Please enter a number!`)
             
-           }else if(input.value > 100 ||input.value < 100 ){
+           }else if(input.value > 100 ||input.value < 0 ){
             comment.textContent = `Please enter a number in 1-100`;
             alert(`Please enter a number in 1-100`)
             input.value=""
